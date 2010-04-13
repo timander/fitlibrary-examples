@@ -1,0 +1,5 @@
+!contents -R2 -g -p -f -h
+
+!path ../target/classes
+!path ../target/test-classes
+!path ../target/dependency/*

@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+
+!|net.timandersen.fixtures.FormFieldsDoFixture|
+
+!define myFields {|first name|Jim|
+|last name|Smith|
+|phone number|555-444-3333|
+|email|jim.smith@jimsmith.com|
+}
+
+|submits form with|${myFields}|
+
+!define errors {|some.problem.happend|
+}
+
+
+|check|sees validation errors|${errors}|
