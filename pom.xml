@@ -71,9 +71,9 @@
                             <goal>run-tests</goal>
                         </goals>
                         <configuration>
-                            <testRepositoryUri>${basedir}/../fitnesse</testRepositoryUri>
+                            <testRepositoryUri>${basedir}/fitnesse</testRepositoryUri>
                             <suites>
-                                <suite>FrontPage</suite>
+                                <suite>FrontPage.ExamplesSuite</suite>
                             </suites>
                         </configuration>
                     </execution>

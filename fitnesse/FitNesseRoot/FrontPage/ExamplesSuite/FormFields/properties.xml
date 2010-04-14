@@ -3,12 +3,12 @@
 	<Edit/>
 	<Files/>
 	<Help></Help>
-	<Normal/>
 	<Properties/>
-	<Prune/>
 	<RecentChanges/>
+	<Refactor/>
 	<Search/>
 	<Suites></Suites>
+	<Test/>
 	<Versions/>
 	<WhereUsed/>
 </properties>

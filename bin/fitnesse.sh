@@ -1,0 +1,3 @@
+cd ../fitnesse
+./run.sh
+

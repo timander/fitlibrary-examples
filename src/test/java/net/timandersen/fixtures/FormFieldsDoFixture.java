@@ -16,7 +16,7 @@ public class FormFieldsDoFixture extends DoFixture {
     }
 
     public String[] seesValidationErrors() {
-        return Arrays.asList("some.problem.happend").toArray(new String[]{});
+      return new String[]{"some.problem.happend"};
     }
 
 }
